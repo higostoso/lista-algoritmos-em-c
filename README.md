@@ -87,4 +87,19 @@ int main() {
     return 0;
 }
 6- Cálculo da Área de um Círculo
+#include<stdio.h>
+
+int main(){
+
+float base; float altura;
+
+printf("escreva o valor da altura do circulo:"); scanf("%f", &altura); printf("escreva a qual o valor base do circulo:"); scanf("%f", &base);
+
+float total = base * altura;
+
+printf("o calculo da area do circulo e:, %.2f\m", total);
+
+return 0;
+
+}
 
