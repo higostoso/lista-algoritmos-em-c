@@ -24,4 +24,22 @@ int main (){
 	return 0;
 	
 }
-3- 
+3- impar ou par
+#include <stdio.h>
+
+int main (){
+	int numero;
+	int par, impar;
+	
+	printf("digite um numero:");
+	scanf("%d", &numero);
+	
+	  if (numero % 2 == 0) {
+        printf("O número %d é par.\n", numero);
+    } else {
+        printf("O número %d é ímpar.\n", numero);
+    }
+
+
+}
+4- 
