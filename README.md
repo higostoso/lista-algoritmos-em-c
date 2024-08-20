@@ -102,4 +102,78 @@ printf("o calculo da area do circulo e:, %.2f\m", total);
 return 0;
 
 }
+7- conversão de temperatura
+#include<stdio.h>
+
+int main () { float Fahrenheit; float celsius; float total;
+
+printf("digite um valor para Fahrenheit:");
+scanf("%f", &Fahrenheit);
+
+
+total = (Fahrenheit-32)/1.8;
+
+printf("o valor em celsius e: %f", total);
+
+
+return 0;
+}
+8- tabuada
+#include <stdio.h>
+
+int main() {
+    int numero, i;
+
+    
+    printf("Digite um número para ver a tabuada: ");
+    scanf("%d", &numero);
+
+   
+    printf("Tabuada de %d:\n", numero);
+    for(i = 1; i <= 10; i++) {
+        printf("%d x %d = %d\n", numero, i, numero * i);
+        
+    }
+   return 0;
+}
+  9- fatorial de um numero
+  #include <stdio.h>
+
+int main() {
+    int numero, i;
+    unsigned long long fatorial = 1;
+
+   
+    printf("Digite um número inteiro positivo: ");
+    scanf("%d", &numero);
+
+    
+    if (numero < 0) {
+        printf("Fatorial não é definido para números negativos.\n");
+    } else {
+       
+        for (i = 1; i <= numero; i++) {
+            fatorial *= i;
+        }
+       
+        printf("Fatorial de %d = %llu\n", numero, fatorial);
+    }
+
+    return 0;
+}
+10- contagem regressiva
+#include <stdio.h>
+
+int main() {
+    int i;
+
+    printf("Contagem regressiva:\n");
+    for (i = 10; i >= 1; i--) {
+        printf("%d\n", i);
+    }
+
+    printf("Feliz Ano Novo!\n");
+
+    return 0;
+}
 
